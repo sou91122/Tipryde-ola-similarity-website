@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>.::. TipRyde .::.</title>
+<!--Used Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Material+Icons" rel="stylesheet">
+<!--Used Icons-->
+<link href="support/linearicon/style.css" rel="stylesheet">
+<link href="support/themify/themify-icons.css" rel="stylesheet">
+<link href="http://design.gowebbigo.com/layout/istrategies/css/font-awesome.min.css" rel="stylesheet">
+<!--Used Style Framework-->
+<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+<!--Custom Style-->
+<link href="stylesheets/style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!--Side Nav Start-->
+<div id="sideNavigation" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+ <a href="#">Payment</a>
+ <a href="#">Your Trips</a>
+ <a href="#">Free Rides</a>
+ <a href="#">FAQ</a>
+ <a href="#">Map</a>
+</div>
+<nav class="topnav"> <a href="#" onclick="openNav()">
+  <svg width="30" height="30" id="icoOpen">
+    <path d="M0,5 30,5" stroke="#000" stroke-width="1"></path>
+    <path d="M0,14 30,14" stroke="#000" stroke-width="1"></path>
+    <path d="M0,23 30,23" stroke="#000" stroke-width="1"></path>
+  </svg>
+  </a> </nav>
+<!--Side Nav End--> 
+
+<div class="map-area">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.6775342048704!2d153.5259439146323!3d-28.186720782595824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b90fe32039d9a6d%3A0x7363cc3f24817f18!2s97+Kennedy+Dr%2C+Tweed+Heads+NSW+2485%2C+Australia!5e0!3m2!1sen!2sin!4v1533280858427" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="clearfix"></div>
+<div class="driver-document-area">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h5>Please Upload Carefully</h5>
+<h2>Driver Documents</h2>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Vehicle Registration <span class="req">*</span></p>
+<input name="" value="" id="driver-doc1" class="inputfile" type="file">
+<label for="driver-doc1" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-1" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>Liability Insurance <span class="req">*</span></p>
+<input name="" value="" id="driver-doc2" class="inputfile" type="file">
+<label for="driver-doc2" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-2" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>Back Ground Check <span class="req">*</span></p>
+<input name="" value="" id="driver-doc3" class="inputfile" type="file">
+<label for="driver-doc3" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-3" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>1099 <span class="req">*</span></p>
+<input name="" value="" id="driver-doc4" class="inputfile" type="file">
+<label for="driver-doc4" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-4" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>Drivers License <span class="req">*</span></p>
+<input name="" value="" id="driver-doc5" class="inputfile" type="file">
+<label for="driver-doc5" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-5" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>Photo ID <span class="req">*</span></p>
+<input name="" value="" id="driver-doc6" class="inputfile" type="file">
+<label for="driver-doc6" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-6" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>Vehicle Photo <span class="req">*</span></p>
+<input name="" value="" id="driver-doc7" class="inputfile" type="file">
+<label for="driver-doc7" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-7" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-6 col-sm-6">
+<p>Vehicle Inspection <span class="req">*</span></p>
+<input name="" value="" id="driver-doc8" class="inputfile" type="file">
+<label for="driver-doc8" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<p>Expired Date <span class="req">*</span></p>
+<input name="" value="" id="expiry-date-8" autocomplete="off" type="text">
+  <img src="images/document-calendar-icon.png" alt="" class="document-calendar-icon-area">
+</div>
+
+<div class="col-md-12">
+<p>Prof of Doc ( Automatically Qualifies you if you drive for UBER or LYFT ) A completed fare ticket today's date will due <span class="req">*</span></p>
+<input name="" value="" id="driver-doc9" class="inputfile" type="file">
+<label for="driver-doc9" id="">&nbsp;</label>
+</div>
+<div class="col-md-6 col-sm-6">
+<button class="btn btn-primary" type="submit" name="button">Save Information</button>
+</div>
+</div>
+</div>
+</div>
+
+<!--Required JS--> 
+<script type="text/javascript" src="javascript/jquery.min.js"></script> 
+<script type="text/javascript" src="javascript/bootstrap.min.js"></script> 
+<script type="text/javascript" src="javascript/jquery.easing.js"></script> 
+<script type="text/javascript" src="javascript/owl.carousel.js"></script> 
+<!--Menu -->
+<link href="menu/stellarnav.min.css" rel="stylesheet">
+<script src="menu/stellarnav.min.js"></script>
+<!--Date Picker -->
+<link href="javascript/date-picker/datetimepicker.min.css" rel="stylesheet">
+<script src="javascript/date-picker/datetimepicker.min.js"></script> 
+<!--Main Custom Js--> 
+<script type="text/javascript" src="javascript/main.js"></script>
+</body>
+</html>
